@@ -1,6 +1,6 @@
 // Osoul Line Inspection – offline support.
 // When you upload a new version of index.html, change the number below (v1 -> v2).
-const VERSION = 'osoul-inspect-v1';
+const VERSION = 'osoul-inspect-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-512-maskable.png'];
 
 self.addEventListener('install', e => {
